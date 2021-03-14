@@ -1,0 +1,68 @@
+{
+    "workbench.colorTheme": "Andromeda",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "explorer.confirmDelete": false,
+    "workbench.editor.enablePreview": true,
+    "editor.fontFamily": "'Fira Code', 'monospace'",
+    "editor.fontWeight": "500",
+    "editor.fontLigatures": true,
+    "window.menuBarVisibility": "default",
+    "workbench.activityBar.visible": true,
+    "editor.cursorBlinking": "expand",
+    "editor.autoIndent": "full",
+
+    "editor.tokenColorCustomizations": {
+        "[Andromeda]": {
+            "comments": "#2534ff",
+            "strings": "#ffff66",
+            "variables": "#99ccff",
+            "textMateRules": [
+                {
+                    "scope": "keyword.operator",
+                    "settings": {
+                        "foreground": "#50c2bc"
+                    }
+                },
+                {
+                    "scope": "constant.numeric",
+                    "settings": {
+                        "foreground": "#ff004c"
+                    }
+                },
+                {
+                    "scope": "entity.name.tag",
+                    "settings": {
+                        "foreground": "#039688"
+                    }
+                },
+                {
+                    "scope": "entity.other.attribute-name",
+                    "settings": {
+                        "foreground": "#cc33ff"
+                    }
+                },
+                {
+                    "scope": "keyword",
+                    "settings": {
+                        "foreground": "#00ffff"
+                    }
+                },
+                {
+                    "scope": "storage",
+                    "settings": {
+                        "foreground": "#ff9966",
+                    }
+                },
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "fontStyle": "italic underline"
+                    }
+                },
+            ]
+        }
+    }
+}

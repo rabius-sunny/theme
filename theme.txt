@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Andromeda",
+    "workbench.colorTheme": "Andromeda Bordered",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
@@ -9,16 +9,17 @@
     "editor.fontFamily": "'Fira Code', 'monospace'",
     "editor.fontWeight": "500",
     "editor.fontLigatures": true,
-    "window.menuBarVisibility": "default",
+    "window.menuBarVisibility": "hidden",
     "workbench.activityBar.visible": true,
     "editor.cursorBlinking": "expand",
     "editor.autoIndent": "full",
-
+    "tabnine.experimentalAutoImports": true,
     "editor.tokenColorCustomizations": {
-        "[Andromeda]": {
+        "[Andromeda Bordered]": {
             "comments": "#2534ff",
-            "strings": "#ffff66",
-            "variables": "#99ccff",
+            "strings": "#cc33ff",
+            "functions": "#45ecec",
+            "variables": "#fffc99",
             "textMateRules": [
                 {
                     "scope": "keyword.operator",
@@ -47,13 +48,15 @@
                 {
                     "scope": "keyword",
                     "settings": {
-                        "foreground": "#00ffff"
+                        "foreground": "#00ffff",
+                        "fontStyle": "bold"
                     }
                 },
                 {
                     "scope": "storage",
                     "settings": {
-                        "foreground": "#ff9966",
+                        "foreground": "#0de679",
+                        "fontStyle": "bold"
                     }
                 },
                 {
@@ -64,5 +67,8 @@
                 },
             ]
         }
-    }
+    },
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": -1
 }
